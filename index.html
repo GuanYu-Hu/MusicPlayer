@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Music Player</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+  <link rel="stylesheet" href="css\style.css">
+</head>
+
+<body>
+  <img id="imageblur">
+  <div id="bg"></div>
+  <div class="main">
+
+    <div class="musicPlayer">
+      <!-- <div id="image"></div> -->
+
+      <img id="image">
+      <div class="gradient"></div>
+
+
+      <div class="control">
+        <div class="waves">
+          <div class='wave'></div>
+          <div class='wave'></div>
+          <div class='wave'></div>
+        </div>
+
+        <div class="info">
+          <h2 id="title"></h2>
+          <div id="artist"></div>
+          <span id="seekbar"></span>
+          <span id="seekbarmove"></span>
+          <div class="seekbarico"></div>
+
+          <p id="current">00:00</p>
+          <p id="total">00:00</p>
+        </div>
+        <div class="controler">
+          <a id="menu" href="#"></a>
+          <a class="play" href="#"></a>
+          <!--start-->
+          <a id="backward" href="#"></a>
+          <!--backward-->
+          <a id="forward" href="#"></a>
+          <!--forward-->
+          <a href="#" class="playall"></a>
+
+          <div class="volume">
+            <span id="volumebar"></span>
+            <span id="volumebarmove"></span>
+            <div id="volumeico"></div>
+
+            <div id="mute"></div>
+            <p id="currentvolume">100%</p>
+          </div>
+
+        </div>
+      </div>
+
+
+    </div>
+    <div class="list"></div>
+  </div>
+  <audio id="audio"></audio>
+  <script type="text/javascript" src="js/index.js"></script>
+</body>
+
+</html>
